@@ -11,7 +11,7 @@ void main() {
   );
 }
 
-// //class toast
+// // //class toast
 // class toastNotify extends StatefulWidget {
 //   @override
 //   _toastNotify createState() {
@@ -46,7 +46,7 @@ class FirstScreen extends StatelessWidget {
               child: Text('Press to Go to Second Screen'),
               onPressed: () {
                 Fluttertoast.showToast(
-                    msg: "Goint to second Page",
+                    msg: "Going to second Page",
                     toastLength: Toast.LENGTH_LONG,
                     gravity: ToastGravity.CENTER,
                     backgroundColor: Colors.amber,
